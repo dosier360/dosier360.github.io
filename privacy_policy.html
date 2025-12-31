@@ -1,372 +1,348 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Política de Privacidad - App de Asistencia</title>
+    <title>Política de Privacidad - App Asistencia</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            line-height: 1.6;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.8;
             color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
             max-width: 800px;
             margin: 0 auto;
-            padding: 20px;
-            background-color: #f5f5f5;
+            background: white;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
         }
-        .container {
-            background-color: white;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
+
         h1 {
-            color: #1F3A93;
-            border-bottom: 3px solid #1F3A93;
-            padding-bottom: 10px;
+            color: #673AB7;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-align: center;
         }
-        h2 {
-            color: #1F3A93;
-            margin-top: 30px;
-        }
-        h3 {
-            color: #2196F3;
-            margin-top: 20px;
-        }
+
         .last-updated {
-            color: #666;
+            text-align: center;
+            color: #888;
+            font-size: 0.9em;
+            margin-bottom: 30px;
             font-style: italic;
-            margin-bottom: 20px;
         }
+
+        h2 {
+            color: #673AB7;
+            font-size: 1.8em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #673AB7;
+            padding-bottom: 8px;
+        }
+
+        h3 {
+            color: #764ba2;
+            font-size: 1.3em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ul,
+        ol {
+            margin: 15px 0;
+            padding-left: 30px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
         .highlight {
-            background-color: #E3F2FD;
-            padding: 15px;
-            border-left: 4px solid #2196F3;
+            background: #f3e5f5;
+            padding: 20px;
+            border-left: 4px solid #673AB7;
+            border-radius: 4px;
             margin: 20px 0;
         }
-        ul {
-            margin: 10px 0;
-            padding-left: 25px;
-        }
-        li {
-            margin: 8px 0;
-        }
-        .contact {
-            background-color: #F5F5F5;
+
+        .important {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
             padding: 15px;
-            border-radius: 5px;
-            margin-top: 20px;
+            margin: 20px 0;
+            border-radius: 4px;
         }
+
+        strong {
+            color: #673AB7;
+        }
+
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            text-align: center;
+            color: #888;
+            font-size: 0.9em;
+        }
+
         a {
-            color: #2196F3;
+            color: #673AB7;
             text-decoration: none;
         }
+
         a:hover {
             text-decoration: underline;
         }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+        }
     </style>
 </head>
+
 <body>
     <div class="container">
-        <h1>Política de Privacidad</h1>
-        <p class="last-updated"><strong>Última actualización:</strong> 24 de diciembre de 2024</p>
+        <h1>🔒 Política de Privacidad</h1>
+        <p class="last-updated">Última actualización: 31 de diciembre de 2025</p>
+
         <div class="highlight">
-            <p><strong>En resumen:</strong> Esta aplicación está diseñada para ayudar a profesores a gestionar la
-                asistencia de sus estudiantes. Recopilamos datos mínimos necesarios para el funcionamiento de la app y
-                mostramos anuncios para mantener el servicio gratuito. Tus datos de asistencia se almacenan localmente
-                en tu dispositivo y opcionalmente en la nube si decides sincronizar.</p>
+            <p><strong>En App Asistencia</strong>, valoramos profundamente tu privacidad y nos comprometemos a proteger
+                tus datos personales. Esta política describe de manera clara y transparente cómo recolectamos, usamos,
+                almacenamos y protegemos tu información.</p>
         </div>
-        <h2>1. Información General</h2>
-        <p>Esta Política de Privacidad describe cómo <strong>App de Asistencia</strong> (en adelante, "la Aplicación",
-            "nosotros" o "nuestro") recopila, usa y protege la información de los usuarios (en adelante, "usted" o
-            "usuario").</p>
-        <p>La Aplicación es una herramienta educativa diseñada para profesores y docentes que desean gestionar la
-            asistencia de sus estudiantes de manera eficiente. Al utilizar esta aplicación, usted acepta las prácticas
-            descritas en esta política.</p>
-        <h2>2. Información que Recopilamos</h2>
-        <h3>2.1 Información de Identificación del Dispositivo</h3>
+
+        <h2>1. Información que Recolectamos</h2>
+
+        <h3>1.1 Datos de Registro de Cuenta</h3>
+        <p>Cuando creas una cuenta en nuestra aplicación, recolectamos la siguiente información:</p>
         <ul>
-            <li><strong>ID de Dispositivo:</strong> Generamos un identificador único para su dispositivo que nos permite
-                sincronizar sus datos y gestionar su suscripción.</li>
-            <li><strong>Información del Dispositivo:</strong> Modelo, sistema operativo, versión de la aplicación.</li>
+            <li><strong>Nombre completo</strong></li>
+            <li><strong>Fecha de nacimiento</strong></li>
+            <li><strong>Correo electrónico</strong></li>
+            <li><strong>Institución educativa</strong></li>
+            <li><strong>Nivel de enseñanza</strong></li>
+            <li><strong>Ciudad</strong></li>
+            <li><strong>Género</strong></li>
+            <li><strong>Contraseña</strong> (almacenada de forma encriptada mediante hash SHA-256)</li>
+            <li><strong>Pregunta de seguridad</strong> (nombre de padre/madre/tutor para recuperación de cuenta)</li>
         </ul>
-        <h3>2.2 Información de Cuenta (Opcional)</h3>
+
+        <h3>1.2 Datos del Dispositivo</h3>
+        <p>Para garantizar la seguridad de tu cuenta y ofrecer una experiencia personalizada, recolectamos:</p>
         <ul>
-            <li><strong>Correo Electrónico:</strong> Si decide proporcionarlo para recuperación de cuenta o
-                sincronización.</li>
-            <li><strong>Datos de Perfil:</strong> Nombre completo, fecha de nacimiento, género, institución educativa,
-                nivel de enseñanza, ciudad (solo si acepta compartir datos analíticos).</li>
+            <li><strong>Identificador único del dispositivo (Device ID)</strong>: Este es un código único generado por
+                tu teléfono o tablet que nos permite identificar el dispositivo desde el cual accedes a la app.</li>
+            <li><strong>Versión de la aplicación</strong></li>
+            <li><strong>Tipo de dispositivo y sistema operativo</strong></li>
+            <li><strong>Datos de sesión</strong>: Fecha y hora de acceso, duración de sesión</li>
         </ul>
-        <h3>2.3 Datos de Uso de la Aplicación</h3>
+
+        <h3>1.3 Datos de Uso y Analíticas</h3>
+        <p>Para mejorar continuamente nuestra aplicación, recolectamos información anónima sobre el uso:</p>
         <ul>
-            <li><strong>Datos de Asistencia:</strong> Nombres de estudiantes, aulas, fechas de asistencia, notas y
-                observaciones que usted ingrese.</li>
-            <li><strong>Métricas de Uso:</strong> Fecha y hora de inicio de sesión, tiempo de uso, funciones utilizadas.
+            <li>Número de veces que inicias sesión</li>
+            <li>Funcionalidades más utilizadas</li>
+            <li>Tiempo promedio de uso de la aplicación</li>
+            <li>Eventos de interacción dentro de la app</li>
+        </ul>
+
+        <h2>2. Cómo Usamos Tu Información</h2>
+
+        <p>Utilizamos tus datos personales para los siguientes propósitos legítimos:</p>
+
+        <h3>2.1 Provisión del Servicio</h3>
+        <ul>
+            <li>Crear y gestionar tu cuenta de usuario</li>
+            <li>Autenticar tu identidad al iniciar sesión</li>
+            <li>Permitir el acceso a las funcionalidades de la aplicación</li>
+            <li>Sincronizar tus datos entre dispositivos (cuando corresponda)</li>
+        </ul>
+
+        <h3>2.2 Recuperación de Cuenta</h3>
+        <p>Los datos de recuperación (email, nombre, fecha de nacimiento y pregunta de seguridad) se utilizan
+            exclusivamente para verificar tu identidad en caso de que olvides tu contraseña, permitiéndote restaurar el
+            acceso a tu cuenta de manera segura.</p>
+
+        <h3>2.3 Gestión de Suscripciones</h3>
+        <p>Para administrar correctamente tu suscripción (Free o Premium), implementamos un sistema de rastreo basado
+            en:</p>
+        <ul>
+            <li><strong>Identificador de dispositivo</strong>: Para vincular la suscripción a tu dispositivo específico.
             </li>
-            <li><strong>Datos Analíticos:</strong> Eventos de uso anónimos para mejorar la aplicación.</li>
+            <li><strong>Hash criptográfico de tu email</strong>: Creamos un código único e irreversible (hash SHA-256)
+                de tu correo electrónico que nos permite identificar usuarios únicos sin almacenar tu email en texto
+                plano en nuestros registros de beneficios. Este hash no puede ser convertido de vuelta a tu email
+                original, garantizando tu privacidad.</li>
         </ul>
-        <h3>2.4 Servicios de Google (Google Play Services)</h3>
-        <p>Esta aplicación utiliza servicios proporcionados por Google LLC. Al usar esta aplicación, usted también está
-            sujeto a:</p>
-        <ul>
-            <li><a href="https://policies.google.com/privacy" target="_blank">Política de Privacidad de Google</a></li>
-            <li><a href="https://policies.google.com/terms" target="_blank">Términos de Servicio de Google</a></li>
-        </ul>
-        <h4>2.4.1 Google AdMob (Publicidad)</h4>
-        <ul>
-            <li><strong>Propósito:</strong> Mostramos anuncios a usuarios gratuitos para mantener el servicio sin costo.
-            </li>
-            <li><strong>Datos Recopilados por AdMob:</strong>
-                <ul>
-                    <li>Identificador de Publicidad (AAID en Android)</li>
-                    <li>Dirección IP</li>
-                    <li>Datos del dispositivo (modelo, OS, resolución de pantalla)</li>
-                    <li>Interacciones con anuncios</li>
-                </ul>
-            </li>
-            <li><strong>Uso de Datos:</strong> Google usa estos datos para personalizar anuncios y medir su efectividad.
-            </li>
-            <li><strong>Más información:</strong> <a href="https://support.google.com/admob/answer/6128543"
-                    target="_blank">Cómo usa Google los datos de aplicaciones que usan AdMob</a></li>
-            <li><strong>Control:</strong> Puede optar por no recibir anuncios personalizados en <a
-                    href="https://adssettings.google.com" target="_blank">Configuración de Anuncios de Google</a></li>
-        </ul>
-        <h4>2.4.2 Google Play Services (Infraestructura)</h4>
-        <p>La aplicación utiliza Google Play Services para:</p>
-        <ul>
-            <li><strong>Actualizaciones de Seguridad:</strong> Google Play Services proporciona actualizaciones
-                automáticas de seguridad.</li>
-            <li><strong>APIs del Sistema:</strong> Acceso a funcionalidades del sistema Android.</li>
-            <li><strong>Datos Recopilados:</strong> Google puede recopilar datos de diagnóstico, uso y rendimiento de la
-                aplicación.</li>
-        </ul>
-        <h3>2.5 Información de Compras</h3>
-        <ul>
-            <li><strong>Suscripciones Premium:</strong> Si adquiere una suscripción premium, Google Play Store procesa
-                el pago. No almacenamos información de tarjetas de crédito. Solo recibimos confirmación de la compra
-                para activar su suscripción.</li>
-        </ul>
-        <h2>3. Cómo Utilizamos su Información</h2>
-        <p>Utilizamos la información recopilada para:</p>
-        <ul>
-            <li><strong>Proporcionar el Servicio:</strong> Permitirle crear aulas, registrar estudiantes y gestionar
-                asistencia.</li>
-            <li><strong>Sincronización de Datos:</strong> Sincronizar sus datos entre dispositivos si utiliza la función
-                de nube.</li>
-            <li><strong>Gestión de Suscripciones:</strong> Administrar su estado de suscripción (gratuito, prueba,
-                premium).</li>
-            <li><strong>Mostrar Anuncios:</strong> Mostrar anuncios relevantes a usuarios gratuitos para mantener el
-                servicio sin costo.</li>
-            <li><strong>Mejorar la Aplicación:</strong> Analizar el uso para identificar errores, mejorar funciones y
-                optimizar la experiencia del usuario.</li>
-            <li><strong>Comunicación:</strong> Enviar notificaciones importantes sobre la aplicación (actualizaciones,
-                cambios de política).</li>
-            <li><strong>Cumplimiento Legal:</strong> Cumplir con obligaciones legales y proteger nuestros derechos.</li>
-        </ul>
-        <h2>4. Almacenamiento de Datos</h2>
-        <h3>4.1 Almacenamiento Local</h3>
-        <p>La mayoría de sus datos (aulas, estudiantes, registros de asistencia) se almacenan <strong>localmente en su
-                dispositivo</strong> utilizando una base de datos SQLite. Estos datos no se comparten automáticamente
-            con servidores externos.</p>
-        <h3>4.2 Almacenamiento en la Nube</h3>
-        <p>Si activa la sincronización en la nube, sus datos se almacenan en servidores seguros utilizando MongoDB
-            Atlas. Los datos están encriptados en tránsito (HTTPS) y en reposo.</p>
-        <ul>
-            <li><strong>Ubicación de Servidores:</strong> Los datos se almacenan en centros de datos de MongoDB Atlas
-                que cumplen con estándares internacionales de seguridad.</li>
-            <li><strong>Retención de Datos:</strong> Sus datos se conservan mientras mantenga una cuenta activa. Puede
-                solicitar la eliminación en cualquier momento.</li>
-        </ul>
-        <h2>5. Compartir Información con Terceros</h2>
-        <p>No vendemos ni alquilamos su información personal a terceros. Compartimos información solo en los siguientes
-            casos:</p>
-        <h3>5.1 Proveedores de Servicios</h3>
-        <ul>
-            <li><strong>Google AdMob:</strong> Para mostrar anuncios (usuarios gratuitos).</li>
-            <li><strong>Google Play Store:</strong> Para procesar compras de suscripciones.</li>
-            <li><strong>MongoDB Atlas:</strong> Para almacenamiento en la nube (si activa la sincronización).</li>
-        </ul>
-        <h3>5.2 Cumplimiento Legal</h3>
-        <p>Podemos divulgar información si es requerido por ley, orden judicial o para proteger nuestros derechos
-            legales.</p>
-        <h3>5.3 Exportación de Datos por el Usuario</h3>
-        <p>Cuando exporta sus datos a Excel, usted controla con quién comparte esos archivos. No somos responsables del
-            uso que haga de los datos exportados.</p>
-        <h2>6. Publicidad y Monetización</h2>
-        <h3>6.1 Anuncios en la Versión Gratuita</h3>
-        <p>Los usuarios de la versión gratuita verán anuncios proporcionados por Google AdMob, incluyendo:</p>
-        <ul>
-            <li><strong>Anuncios de Banner:</strong> En la parte superior o inferior de algunas pantallas.</li>
-            <li><strong>Anuncios Intersticiales:</strong> Anuncios de pantalla completa que aparecen ocasionalmente
-                entre acciones.</li>
-            <li><strong>Anuncios de Video con Recompensa:</strong> Videos opcionales que puede ver para desbloquear
-                funciones (como exportación a Excel).</li>
-        </ul>
-        <h3>6.2 Suscripción Premium</h3>
-        <p>Los usuarios premium disfrutan de:</p>
-        <ul>
-            <li>Experiencia sin anuncios</li>
-            <li>Exportación ilimitada a Excel sin videos</li>
-            <li>Soporte prioritario</li>
-            <li>Funciones exclusivas futuras</li>
-        </ul>
-        <h3>6.3 Personalización de Anuncios</h3>
-        <p>Puede optar por no recibir anuncios personalizados en la configuración de su dispositivo Android:</p>
-        <ul>
-            <li>Vaya a <strong>Configuración > Google > Anuncios</strong></li>
-            <li>Active <strong>"Inhabilitar la personalización de anuncios"</strong></li>
-        </ul>
-        <h2>7. Seguridad de los Datos</h2>
-        <p>Implementamos medidas de seguridad técnicas y organizativas para proteger su información:</p>
-        <ul>
-            <li><strong>Encriptación:</strong> Todas las comunicaciones con nuestros servidores utilizan HTTPS/TLS.</li>
-            <li><strong>Autenticación:</strong> Acceso basado en ID de dispositivo único.</li>
-            <li><strong>Almacenamiento Seguro:</strong> Los datos en la nube están encriptados en reposo.</li>
-            <li><strong>Acceso Limitado:</strong> Solo personal autorizado tiene acceso a los datos del servidor.</li>
-        </ul>
-        <p>Sin embargo, ningún sistema es 100% seguro. No podemos garantizar la seguridad absoluta de su información.
-        </p>
-        <h2>7.1 Declaración de Seguridad de Datos (Data Safety) - Google Play Store</h2>
-        <p>En cumplimiento con los requisitos de Google Play Store, declaramos lo siguiente:</p>
-        <h3>Datos Recopilados y Compartidos</h3>
-        <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
-            <tr style="background: #f5f5f5;">
-                <th style="border: 1px solid #ddd; padding: 12px; text-align: left;">Tipo de Dato</th>
-                <th style="border: 1px solid #ddd; padding: 12px; text-align: left;">Propósito</th>
-                <th style="border: 1px solid #ddd; padding: 12px; text-align: left;">Compartido con</th>
-            </tr>
-            <tr>
-                <td style="border: 1px solid #ddd; padding: 12px;">ID de Dispositivo</td>
-                <td style="border: 1px solid #ddd; padding: 12px;">Autenticación y sincronización</td>
-                <td style="border: 1px solid #ddd; padding: 12px;">Nuestros servidores únicamente</td>
-            </tr>
-            <tr>
-                <td style="border: 1px solid #ddd; padding: 12px;">Email (opcional)</td>
-                <td style="border: 1px solid #ddd; padding: 12px;">Recuperación de cuenta</td>
-                <td style="border: 1px solid #ddd; padding: 12px;">Nuestros servidores únicamente</td>
-            </tr>
-            <tr>
-                <td style="border: 1px solid #ddd; padding: 12px;">Datos de Asistencia</td>
-                <td style="border: 1px solid #ddd; padding: 12px;">Funcionalidad principal</td>
-                <td style="border: 1px solid #ddd; padding: 12px;">Almacenado localmente + nube propia</td>
-            </tr>
-            <tr>
-                <td style="border: 1px solid #ddd; padding: 12px;">Advertising ID</td>
-                <td style="border: 1px solid #ddd; padding: 12px;">Publicidad personalizada</td>
-                <td style="border: 1px solid #ddd; padding: 12px;"><strong>Google AdMob</strong></td>
-            </tr>
-            <tr>
-                <td style="border: 1px solid #ddd; padding: 12px;">Datos de uso/diagnóstico</td>
-                <td style="border: 1px solid #ddd; padding: 12px;">Análisis y mejora de app</td>
-                <td style="border: 1px solid #ddd; padding: 12px;">Nuestros servidores + Google Play Services</td>
-            </tr>
-        </table>
-        <h3>Opciones de Usuario</h3>
-        <ul>
-            <li><strong>Eliminar Datos:</strong> Puede solicitar la eliminación completa de sus datos contactándonos.
-            </li>
-            <li><strong>Exportar Datos:</strong> Puede exportar todos sus datos de asistencia en cualquier momento.</li>
-            <li><strong>Deshabilitar Anuncios Personalizados:</strong> En <a href="https://adssettings.google.com"
-                    target="_blank">Configuración de Anuncios de Google</a></li>
-        </ul>
-        <h2>8. Derechos del Usuario</h2>
-        <p>Usted tiene los siguientes derechos sobre sus datos personales:</p>
-        <h3>8.1 Acceso y Portabilidad</h3>
-        <ul>
-            <li>Puede exportar todos sus datos de asistencia a archivos Excel en cualquier momento.</li>
-            <li>Puede solicitar una copia de los datos almacenados en nuestros servidores.</li>
-        </ul>
-        <h3>8.2 Rectificación</h3>
-        <ul>
-            <li>Puede editar o corregir cualquier información directamente en la aplicación.</li>
-        </ul>
-        <h3>8.3 Eliminación</h3>
-        <ul>
-            <li><strong>Datos Locales:</strong> Puede eliminar todos los datos locales desinstalando la aplicación o
-                usando la función "Eliminar todos los datos" en la configuración.</li>
-            <li><strong>Datos en la Nube:</strong> Puede solicitar la eliminación completa de sus datos del servidor
-                contactándonos (ver sección de contacto).</li>
-        </ul>
-        <h3>8.4 Oposición al Procesamiento</h3>
-        <ul>
-            <li>Puede desactivar la sincronización en la nube en cualquier momento.</li>
-            <li>Puede optar por no compartir datos analíticos opcionales.</li>
-        </ul>
-        <h3>8.5 Cancelación de Suscripción</h3>
-        <ul>
-            <li>Puede cancelar su suscripción premium en cualquier momento desde Google Play Store.</li>
-            <li>La cancelación será efectiva al final del período de facturación actual.</li>
-        </ul>
-        <h2>9. Privacidad de Menores</h2>
-        <p>Esta aplicación está diseñada para ser utilizada por <strong>profesores y educadores mayores de 18
-                años</strong>. No recopilamos intencionalmente información de menores de edad.</p>
-        <p>Los datos de estudiantes (nombres, asistencia) son ingresados por el profesor y se consideran datos
-            profesionales del educador, no datos personales de los estudiantes. El profesor es responsable de cumplir
-            con las leyes de protección de datos aplicables en su jurisdicción al utilizar esta aplicación.</p>
-        <h2>10. Transferencias Internacionales de Datos</h2>
-        <p>Sus datos pueden ser transferidos y procesados en países fuera de su país de residencia, incluyendo Estados
-            Unidos y otros países donde operan nuestros proveedores de servicios (Google, MongoDB Atlas).</p>
-        <p>Nos aseguramos de que estas transferencias cumplan con las leyes de protección de datos aplicables,
-            incluyendo GDPR para usuarios en la Unión Europea.</p>
-        <h2>11. Cambios a esta Política de Privacidad</h2>
-        <p>Podemos actualizar esta Política de Privacidad periódicamente para reflejar cambios en nuestras prácticas o
-            por razones legales. Le notificaremos sobre cambios significativos mediante:</p>
-        <ul>
-            <li>Una notificación en la aplicación</li>
-            <li>Actualización de la fecha de "Última actualización" en esta página</li>
-            <li>Correo electrónico (si proporcionó uno)</li>
-        </ul>
-        <p>Le recomendamos revisar esta política periódicamente. El uso continuado de la aplicación después de los
-            cambios constituye su aceptación de la política actualizada.</p>
-        <h2>12. Cumplimiento Legal</h2>
-        <h3>12.1 GDPR (Reglamento General de Protección de Datos - UE)</h3>
-        <p>Para usuarios en la Unión Europea, cumplimos con el GDPR:</p>
-        <ul>
-            <li><strong>Base Legal:</strong> Procesamos datos basados en su consentimiento y para cumplir con nuestro
-                contrato de servicio.</li>
-            <li><strong>Derechos GDPR:</strong> Tiene derecho a acceder, rectificar, eliminar, restringir el
-                procesamiento, portabilidad de datos y oposición.</li>
-            <li><strong>Delegado de Protección de Datos:</strong> Puede contactarnos para ejercer sus derechos (ver
-                sección de contacto).</li>
-        </ul>
-        <h3>12.2 CCPA (Ley de Privacidad del Consumidor de California - EE.UU.)</h3>
-        <p>Para usuarios en California:</p>
-        <ul>
-            <li>Tiene derecho a saber qué información personal recopilamos y cómo la usamos.</li>
-            <li>Tiene derecho a solicitar la eliminación de su información personal.</li>
-            <li>No vendemos información personal.</li>
-        </ul>
-        <h3>12.3 Otras Jurisdicciones</h3>
-        <p>Nos esforzamos por cumplir con las leyes de protección de datos aplicables en todas las jurisdicciones donde
-            operamos.</p>
-        <h2>13. Cookies y Tecnologías Similares</h2>
-        <p>La aplicación móvil no utiliza cookies tradicionales, pero utiliza tecnologías similares:</p>
-        <ul>
-            <li><strong>Almacenamiento Local:</strong> SQLite para datos de la aplicación.</li>
-            <li><strong>Preferencias Compartidas:</strong> Para guardar configuraciones del usuario.</li>
-            <li><strong>SDK de AdMob:</strong> Puede utilizar identificadores de dispositivo para rastrear anuncios.
-            </li>
-        </ul>
-        <h2>14. Contacto</h2>
-        <div class="contact">
-            <p>Si tiene preguntas, inquietudes o solicitudes relacionadas con esta Política de Privacidad o sus datos
-                personales, puede contactarnos:</p>
-            <p><strong>Empresa:</strong> Dosier360</p>
-            <p><strong>Correo Electrónico:</strong> dosier360@gmail.com</p>
-            <p><strong>Sitio Web:</strong> <a href="https://dosier360.github.io"
-                    target="_blank">https://dosier360.github.io</a></p>
+
+        <div class="important">
+            <p><strong>⚠️ Política de Beneficio Único:</strong> El beneficio de 1 año de suscripción Premium de
+                bienvenida se otorga una única vez por usuario/dispositivo. Para garantizar la equidad del sistema,
+                registramos de manera permanente el identificador de dispositivo y el hash del correo electrónico cuando
+                se reclama este beneficio. Esta medida previene el uso fraudulento del beneficio mediante la creación de
+                múltiples cuentas o reinstalación de la aplicación.</p>
         </div>
-        <h2>15. Consentimiento</h2>
-        <p>Al descargar, instalar y utilizar esta aplicación, usted reconoce que ha leído y comprendido esta Política de
-            Privacidad y acepta la recopilación, uso y divulgación de su información según lo descrito en este
-            documento.</p>
+
+        <h3>2.4 Análisis y Mejora del Servicio</h3>
+        <p>Utilizamos datos agregados y anonimizados para:</p>
+        <ul>
+            <li>Comprender patrones de uso y preferencias de nuestros usuarios</li>
+            <li>Mejorar la experiencia de usuario y diseño de la aplicación</li>
+            <li>Detectar y corregir errores técnicos</li>
+            <li>Desarrollar nuevas funcionalidades basadas en necesidades reales</li>
+        </ul>
+
+        <h2>3. Cómo Protegemos Tu Información</h2>
+
+        <h3>3.1 Seguridad de Datos</h3>
+        <p>Implementamos múltiples capas de seguridad para proteger tu información:</p>
+        <ul>
+            <li><strong>Encriptación de contraseñas</strong>: Tu contraseña nunca se almacena en texto plano. Utilizamos
+                el algoritmo SHA-256 con funciones de hash seguras.</li>
+            <li><strong>Comunicación segura</strong>: Todas las comunicaciones entre tu dispositivo y nuestros
+                servidores están protegidas mediante cifrado HTTPS/TLS.</li>
+            <li><strong>Almacenamiento encriptado local</strong>: Los datos sensibles almacenados en tu dispositivo se
+                guardan en un almacenamiento seguro cifrado.</li>
+            <li><strong>Autenticación de requests</strong>: Cada solicitud a nuestros servidores es firmada
+                criptográficamente mediante HMAC-SHA256 para prevenir ataques de suplantación.</li>
+            <li><strong>Base de datos segura</strong>: Utilizamos MongoDB Atlas con autenticación robusta y controles de
+                acceso estrictos.</li>
+        </ul>
+
+        <h3>3.2 Privacidad por Diseño</h3>
+        <p>Aplicamos el principio de "privacidad por diseño" en todas nuestras decisiones técnicas:</p>
+        <ul>
+            <li>Almacenamos únicamente los datos estrictamente necesarios</li>
+            <li>Utilizamos técnicas de hashing para proteger identificadores personales</li>
+            <li>Implementamos borrado seguro de datos cuando eliminas tu cuenta</li>
+            <li>Limitamos el acceso a datos sensibles solo al personal autorizado</li>
+        </ul>
+
+        <h2>4. Almacenamiento y Retención de Datos</h2>
+
+        <h3>4.1 Ubicación de los Datos</h3>
+        <p>Tus datos se almacenan en:</p>
+        <ul>
+            <li><strong>Localmente en tu dispositivo</strong>: Base de datos SQLite cifrada para acceso offline.</li>
+            <li><strong>Servidores en la nube</strong>: MongoDB Atlas (infraestructura de Microsoft Azure) para
+                sincronización y respaldo.</li>
+        </ul>
+
+        <h3>4.2 Tiempo de Retención</h3>
+        <p>Mantenemos tus datos mientras tu cuenta esté activa. Al eliminar tu cuenta:</p>
+        <ul>
+            <li>Todos tus datos personales (nombre, email, fecha de nacimiento, etc.) son borrados de nuestros
+                servidores.</li>
+            <li>Se mantienen únicamente registros anonimizados necesarios para:</li>
+            <ul>
+                <li>Control de beneficios de suscripción (hash de email y device ID)</li>
+                <li>Estadísticas agregadas (sin información personal identificable)</li>
+                <li>Cumplimiento de obligaciones legales</li>
+            </ul>
+        </ul>
+
+        <h2>5. Tus Derechos</h2>
+
+        <p>Como usuario de nuestra aplicación, tienes los siguientes derechos:</p>
+        <ul>
+            <li><strong>Acceso</strong>: Puedes ver todos tus datos personales desde la sección "Mi Cuenta" de la app.
+            </li>
+            <li><strong>Rectificación</strong>: Puedes editar tu información de perfil en cualquier momento.</li>
+            <li><strong>Eliminación</strong>: Puedes solicitar la eliminación completa de tu cuenta desde la
+                configuración de la app. Ten en cuenta que esta acción es irreversible.</li>
+            <li><strong>Portabilidad</strong>: Puedes exportar tus datos de asistencia en formato CSV.</li>
+            <li><strong>Oposición</strong>: Puedes optar por no participar en la recolección de datos analíticos
+                opcionales.</li>
+        </ul>
+
+        <h2>6. Compartición de Datos</h2>
+
+        <p><strong>No vendemos ni compartimos tu información personal con terceros</strong> para fines comerciales. Los
+            únicos casos en que podríamos compartir datos son:</p>
+        <ul>
+            <li><strong>Proveedores de servicios esenciales</strong>: MongoDB Atlas para hosting de base de datos (con
+                acuerdos de confidencialidad estrictos).</li>
+            <li><strong>Cumplimiento legal</strong>: Si es requerido por ley o para proteger nuestros derechos legales.
+            </li>
+        </ul>
+
+        <h2>7. Menores de Edad</h2>
+
+        <p>Nuestra aplicación está diseñada para ser utilizada por profesores y educadores. No recolectamos
+            intencionalmente datos de menores de 13 años sin consentimiento parental. Si descubrimos que hemos
+            recolectado información de un menor sin autorización, la eliminaremos de inmediato.</p>
+
+        <h2>8. Cookies y Tecnologías Similares</h2>
+
+        <p>Nuestra aplicación móvil no utiliza cookies tradicionales. Sin embargo, utilizamos tecnologías similares
+            como:</p>
+        <ul>
+            <li><strong>Tokens de sesión</strong>: Para mantener tu sesión activa de manera segura.</li>
+            <li><strong>Almacenamiento local</strong>: Para guardar preferencias y configuración de la app.</li>
+        </ul>
+
+        <h2>9. Cambios a esta Política</h2>
+
+        <p>Nos reservamos el derecho de actualizar esta Política de Privacidad para reflejar cambios en nuestras
+            prácticas o por razones legales. Te notificaremos sobre cambios significativos mediante:</p>
+        <ul>
+            <li>Un aviso dentro de la aplicación</li>
+            <li>Un correo electrónico (si es un cambio material)</li>
+        </ul>
+        <p>La fecha de "Última actualización" en la parte superior de este documento refleja cuándo se realizó la última
+            modificación.</p>
+
+        <h2>10. Contacto</h2>
+
+        <p>Si tienes preguntas, inquietudes o solicitudes relacionadas con tu privacidad y el manejo de tus datos,
+            puedes contactarnos a través de:</p>
+        <ul>
+            <li><strong>Repositorio GitHub</strong>: <a href="https://github.com/dosier360"
+                    target="_blank">github.com/dosier360</a></li>
+            <li><strong>Dentro de la app</strong>: Sección "Ayuda" → "Contacto"</li>
+        </ul>
+
         <div class="highlight">
-            <p><strong> Gracias por confiar en Dosier360 para gestionar sus necesidades educativas.</strong></p>
+            <p><strong>Tu Consentimiento:</strong> Al utilizar App Asistencia, aceptas los términos de esta Política de
+                Privacidad. Si no estás de acuerdo con alguna parte de esta política, te recomendamos no utilizar
+                nuestra aplicación.</p>
         </div>
-        <hr style="margin-top: 40px; border: none; border-top: 1px solid #ddd;">
-        <p style="text-align: center; color: #999; font-size: 12px; margin-top: 20px;">
-            © 2024 App de Asistencia. Todos los derechos reservados.
-        </p>
+
+        <div class="footer">
+            <p>© 2025 App Asistencia - Todos los derechos reservados</p>
+            <p>Desarrollado con 💜 para educadores</p>
+        </div>
     </div>
 </body>
+
 </html>
